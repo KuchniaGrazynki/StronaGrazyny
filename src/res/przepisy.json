@@ -22,6 +22,14 @@
     "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
     "zdjecie": "https://i.imgur.com/TP22M3Z.jpg"
 
+  },
+{
+    "tytul": "Faszerowane srututu",
+    "skladniki": ["nowyskladnik1Halooo", "skladnik2", "skladnik3"],
+    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
+    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
+    "zdjecie": "https://i.imgur.com/TP22M3Z.jpg"
+
   }
 
 ]

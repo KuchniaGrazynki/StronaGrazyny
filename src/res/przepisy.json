@@ -1,0 +1,18 @@
+[
+    {
+    "tytul": "Faszerowane Papryki",
+    "skladniki": ["skladnik1", "skladnik2", "skladnik3"],
+    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
+    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
+    "zdjecie": "https://images.unsplash.com/photo-1584483698409-60c493a7b630?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+
+  },
+  {
+    "tytul": "Faszerowane Anki Ruchały",
+    "skladniki": ["skladnik1", "skladnik2", "skladnik3"],
+    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
+    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
+    "zdjecie": "https://images.unsplash.com/photo-1584483698409-60c493a7b630?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+
+  }
+]

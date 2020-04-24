@@ -1,0 +1,3 @@
+git add -A
+git commit -m "Tu wpisz co dodalas"
+git push origin master

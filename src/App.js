@@ -33,10 +33,10 @@ class FlipPic extends React.Component {
         <a onClick={this.handleClick}>
         
           <div class="flip-box-back">
-            <div class="prep">{this.props.recipe.przygotowanie}</div>
             {this.props.recipe.skladniki.map(function (ingredient) {
               return <li>{ingredient}</li>;
             })}
+			<div class="prep">{this.props.recipe.przygotowanie}</div>
           </div>
         </a>
       </ReactCardFlip>

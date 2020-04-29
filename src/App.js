@@ -31,12 +31,14 @@ class FlipPic extends React.Component {
         </a>
 
         <a onClick={this.handleClick}>
-        
           <div class="flip-box-back">
+          <ul>
             {this.props.recipe.skladniki.map(function (ingredient) {
               return <li>{ingredient}</li>;
             })}
-			<div class="prep">{this.props.recipe.przygotowanie}</div>
+            
+            </ul>
+			      <div class="prep">{this.props.recipe.przygotowanie}</div>
           </div>
         </a>
       </ReactCardFlip>
@@ -49,12 +51,13 @@ class RecipeCard extends React.Component {
     return this.props.recipes.map(function (recipe) {
       return (
         <Card border="light" className="card">
-          <FlipPic recipe={recipe} />
+         
 
           <Card.Body>
-            <Card.Title>{recipe.tytul}</Card.Title>
+            <Card.Title className="cardTitle">{recipe.tytul}</Card.Title>
             <Card.Text>{recipe.opis}</Card.Text>
           </Card.Body>
+          <FlipPic recipe={recipe} />
         </Card>
       );
     });
@@ -74,12 +77,17 @@ function App() {
         fluid
       >
         <Container>
+          <p>Na studencką kieszeń z tym, co lodówka nawinie!</p>
           <h1>
             <span>PanDa</span>
             <span>🐼</span>
             <span>Tanio</span>
           </h1>
-          <p>Na studencką kieszeń z tym co lodówka nawinie!</p>
+          <div className="pageDesc">
+          <p >Hej kochani! 
+Witam Was serdecznie na moim blogu. Mam na imię Ania i może nie jestem wybitnym szefem kuchni, za to wiem jak przygotować obiad szybko, smacznie i na studencką kieszeń. Będzie mi bardzo miło, jeśli moje przepisy przypadną Wam do gustu, tak jak moim współlokatorom, dla których najczęściej gotuję. 
+A teraz zapraszam do wspólnego gotowania! </p>
+</div>
         </Container>
       </Jumbotron>
       <CardColumns className="columns">

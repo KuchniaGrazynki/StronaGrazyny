@@ -1,35 +1,16 @@
 [
-    {
-    "tytul": "Faszerowane Papryki",
-    "skladniki": ["skladnik1", "skladnik2", "skladnik3"],
-    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
-    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
-    "zdjecie": "https://images.unsplash.com/photo-1584483698409-60c493a7b630?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+	{
+    "tytul": "Ryż z kurczakiem i warzywami
+(porcja dla 3 osób)",
+    "skladniki": ["2 woreczki ryżu", "1 pierś z kurczaka", "warzywa na patelnie","2 łyżki oleju", "przyprawy według uznania: sól, pieprz, papryka słodka, papryka ostra"],
+    "opis": "",
+    "przygotowanie": "    1. Zaczynam od ugotowania ryżu. Gotowanie ciemnego ryżu, jakiego użyłam, zajmuje ok. 30 minut ( można gotować go dłużej, w zależności od potrzeby). Ryż należy gotować zgodnie ze wskazaniami na opakowaniu – w osolonej wodzie, najlepiej pod przykrywką. 
+    2. W międzyczasie kroję pierś z kurczaka w kostki i wrzucam na rozgrzany na patelni olej. Następnie dodaję przyprawy i smażę do momentu, gdy mięso uzyska złocisty kolor. 
+    3. Do mięsa dodaję mrożone warzywa na patelnię. Na moją mieszankę składają się: ziemniaki, marchewka, fasolka szparagowa, kukurydza i brokuł, ale możecie użyć swojego ulubionego zestawu warzyw. Do całości dolewam trochę wody i duszę pod pokrywką, by warzywa się rozmroziły i zmiękły. Od czasu do czasu mieszam zawartość patelni. 
+    4. Gdy ryż, warzywa i mięso są miękkie, łączę składniki w całość. Nasze danie jest już gotowe :)",
+    "zdjecie": "https://i.imgur.com/Fc7CHUY.jpg"
 
-  },
-  {
-    "tytul": "Faszerowane Anki RuchaĹ‚y",
-    "skladniki": ["skladnik1", "skladnik2", "skladnik3"],
-    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
-    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
-    "zdjecie": "https://images.unsplash.com/photo-1584483698409-60c493a7b630?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-
-  },
-{
-    "tytul": "Faszerowane Papryki",
-    "skladniki": ["nowyskladnik1Halooo", "skladnik2", "skladnik3"],
-    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
-    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
-    "zdjecie": "https://i.imgur.com/TP22M3Z.jpg"
-
-  },
-{
-    "tytul": "Faszerowane srututu",
-    "skladniki": ["nowyskladnik1Halooo", "skladnik2", "skladnik3"],
-    "opis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet   iaculis risus id tortor varius, vel maximus dolor vehicula. ",
-    "przygotowanie": "Fusce pulvinar auctor imperdiet. Sed justo metus, dictum sed ligula vel, viverra tempor nisl. Quisque eu elit mollis, tincidunt sem ac, porttitor risus. Proin eu sollicitudin justo, ut sollicitudin purus. Nulla aliquet semper cursus. Integer ornare sem ac leo imperdiet elementum.",
-    "zdjecie": "https://i.imgur.com/TP22M3Z.jpg"
-
-  }
+	},
+	
 
 ]

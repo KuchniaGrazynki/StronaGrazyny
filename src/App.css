@@ -1,5 +1,5 @@
 .App {
-  text-align: justify;
+  text-align: center;
   height: 60%;
 }
 
@@ -18,7 +18,15 @@ font-size: 70px;
 font-size: 30px;
 }
 
+.card{
+  text-align: justify;
+}
 
+
+
+.pageDesc{
+  font-size: 18px;
+}
 
 
 
@@ -36,9 +44,21 @@ font-size: 30px;
     
   font-size: 30px;
   }
+  .pageDesc{
+    font-size: 13px;
+  }
 
 
 
+
+}
+
+.prep{
+  padding: 5%;
+  
+}
+.cardTitle{
+  text-align: center;
 
 }
 
@@ -68,4 +88,3 @@ font-size: 30px;
   
 
 }
-

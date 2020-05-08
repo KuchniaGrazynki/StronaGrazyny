@@ -20,28 +20,31 @@ class FlipPic extends React.Component {
     this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
   }
   render() {
-    let newText = this.props.recipe.przygotowanie.split("\n").map((item, i) => {
+    let newPreparation = this.props.recipe.przygotowanie.split("\n").map((item, i) => {
       return <p key={i}>{item}</p>;
     });
 
+
+    const recipe_pics_path='./res/recipesPics/'
+
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-        <a  className="picture" onClick={this.handleClick}>
+        <a href="#"  className="picture" onClick={this.handleClick}>
           <Card.Img
             className="top"
             variant="top"
-            src={this.props.recipe.zdjecie}
+            src={require(`${recipe_pics_path+this.props.recipe.zdjecie}`)}
           />
         </a>
 
-        <a onClick={this.handleClick}>
+        <a style={{ textDecoration: 'none', color: 'black'  }}  href="#" onClick={this.handleClick}>
           <div class="flip-box-back">
             <ul>
               {this.props.recipe.skladniki.map(function (ingredient, i) {
                 return <li key={i}>{ingredient}</li>;
               })}
             </ul>
-            <div class="prep">{newText}</div>
+            <div class="prep">{newPreparation}</div>
           </div>
         </a>
       </ReactCardFlip>
@@ -52,10 +55,13 @@ class FlipPic extends React.Component {
 class RecipeCard extends React.Component {
   render() {
     return this.props.recipes.map(function (recipe, i) {
+      let newTitle = recipe.tytul.split("\n").map((item, i) => {
+        return <p className="titleP" key={i}>{item}</p>;
+      });
       return (
         <Card key={i} border="light" className="card">
           <Card.Body>
-            <Card.Title className="cardTitle">{recipe.tytul}</Card.Title>
+            <Card.Title className="cardTitle">{newTitle}</Card.Title>
             <Card.Text>{recipe.opis}</Card.Text>
           </Card.Body>
           <FlipPic recipe={recipe} />

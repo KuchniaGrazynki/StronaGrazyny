@@ -25,7 +25,7 @@ class FlipPic extends React.Component {
     });
 
 
-    const recipe_pics_path='./res/recipesPics/'
+    const recipe_pics_path='/recipesPics/'
 
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
@@ -33,7 +33,7 @@ class FlipPic extends React.Component {
           <Card.Img
             className="top"
             variant="top"
-            src={require(`${recipe_pics_path+this.props.recipe.zdjecie}`)}
+            src={recipe_pics_path+this.props.recipe.zdjecie}
           />
         </a>
 
